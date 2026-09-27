@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-trends-api-python"
+version = "0.1.0"
+description = "Google Trends API for Python: a maintained pytrends alternative (drop-in TrendReq), hosted on Apify, no 429 errors."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["apify-client>=2.0"]
+keywords = ["google trends", "google trends api", "pytrends", "pytrends alternative", "seo", "keyword research"]
+classifiers = ["License :: OSI Approved :: MIT License", "Programming Language :: Python :: 3", "Topic :: Internet :: WWW/HTTP"]
+
+[project.optional-dependencies]
+pandas = ["pandas>=1.5"]
+test = ["pytest", "pandas>=1.5"]
+
+[project.urls]
+"Hosted API (Apify)" = "https://apify.com/meridianlabs/google-trends-scraper"
+Source = "https://github.com/leewilliam200/google-trends-api-python"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
