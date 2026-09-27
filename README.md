@@ -102,6 +102,7 @@ listed in the official MCP Registry as `com.meridianlabssoftware/google-trends`.
 
 - [Keyword Search Volume & CPC API + Google Trends](https://apify.com/meridianlabs/keyword-search-volume): monthly search volume, CPC and competition in bulk, with a Trends summary per keyword.
 - [Greenhouse, Lever & Ashby Jobs Scraper + Salary](https://apify.com/meridianlabs/greenhouse-lever-ashby-jobs-scraper): live jobs from company boards with normalised salary.
+- [Backlink Checker: Referring Domains & Spam Score](https://apify.com/meridianlabs/backlink-checker): full backlink lists, referring domains, domain rank and spam score for up to 1,000 domains per run.
 
 ## Development
 
